@@ -31,14 +31,19 @@ ul {
     padding: 0;
 }
 
-ul li a {
+a {
     text-decoration: none;
-    color: #7D7987;
+    color: #1f1534;
+}
+
+ul li a {
+    opacity: 0.5;
 }
 
 ul li a:hover{
     font-weight: bold;
     color: #1f1534;
+    opacity: 1;
 }
 
 h1, ul {
@@ -77,8 +82,9 @@ p {
 button {
     text-transform: uppercase;
     font-family: 'DM Sans', sans-serif;
+    
+    background: #69B99D;
 
-    background-color: #69B99D;
     border: 0;
     border-radius: 4px;
 }
@@ -86,22 +92,27 @@ button {
 button a {
     text-decoration: none;
     color: #F9F9F9;
+    padding: 15px 32px;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px 32px;
     gap: 10px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background: #5da78d;
 }
 
 footer {
     margin-top: 80px;
     font-size: 14px;
     line-height: 28px;
+    text-align: center;
 }
 
 footer a {
     font-weight: bold;
-    color: #000;
-    text-decoration: none;
 }
