@@ -1,1 +1,2 @@
-![dumbbell-large](https://github.com/rickkruiv/treine.me/assets/145631953/44184a52-44a7-4f1e-b2f5-e1d3608898aa)
+<h1>Treine bem, Treine com Treine.me!"</h1>
+<img src="fotos-projeto/Screenshot_1.png" alt="Screenshot_1">
